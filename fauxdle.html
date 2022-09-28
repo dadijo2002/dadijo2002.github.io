@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <title>Wordan</title>
+    <link rel="stylesheet" href="fauxdlestyle.css" />
+  </head>
+  <script src="fauxdlescript.js"></script>
+  <body onload="getSecretWord()">
+
+    <script>
+        window.onload=getSecretWord();
+    </script>
+
+    <!--Primary webpage area-->
+    <div
+        class="background"
+        id="bkgd"
+    >
+    <h1>F   A   U   X   D   L   E</h1>
+
+    </div>
+    <button type="button" onclick="checkGuess()">SUBMIT GUESS</button>
+    <div
+        class="game"
+    >
+        <div
+            class="gamerow"
+        >
+            <div
+                class="defaultbox"
+                id="1box"
+            >
+                <input type="text" maxlength="1" id="box1">
+                <div
+                    class="defaultbox"
+                    id="2box"
+                >
+                    <input type="text" maxlength="1" id="box2">
+                    <div
+                        class="defaultbox"
+                        id="3box"
+                    >
+                        <input type="text" maxlength="1" id="box3">
+                        <div
+                            class="defaultbox"
+                            id="4box"
+                        >
+                            <input type="text" maxlength="1" id="box4">
+                            <div
+                                class="defaultbox"
+                                id="5box"
+                            >
+                                <input type="text" maxlength="1" id="box5">
+                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div
+                class="gamerow"
+            >
+                <div
+                    class="defaultbox"
+                    id="6box"
+                >
+                    <input type="text" maxlength="1" id="box6">
+                    <div
+                        class="defaultbox"
+                        id="7box"
+                    >
+                        <input type="text" maxlength="1" id="box7">
+                        <div
+                            class="defaultbox"
+                            id="8box"
+                        >
+                            <input type="text" maxlength="1" id="box8">
+                            <div
+                                class="defaultbox"
+                                id="9box"
+                            >
+                                <input type="text" maxlength="1" id="box9">
+                                <div
+                                    class="defaultbox"
+                                    id="10box"
+                                >
+                                    <input type="text" maxlength="1" id="box10">
+                                    
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div
+                    class="gamerow"
+                >
+                    <div
+                        class="defaultbox"
+                        id="11box"
+                    >
+                        <input type="text" maxlength="1" id="box11">
+                        <div
+                            class="defaultbox"
+                            id="12box"
+                        >
+                            <input type="text" maxlength="1" id="box12">
+                            <div
+                                class="defaultbox"
+                                id="13box"
+                            >
+                                <input type="text" maxlength="1" id="box13">
+                                <div
+                                    class="defaultbox"
+                                    id="14box"
+                                >
+                                    <input type="text" maxlength="1" id="box14">
+                                    <div
+                                        class="defaultbox"
+                                        id="15box"
+                                    >
+                                        <input type="text" maxlength="1" id="box15">
+                                        
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div
+                    class="gamerow"
+                    >
+                        <div
+                            class="defaultbox"
+                            id="16box"
+                        >
+                            <input type="text" maxlength="1" id="box16">
+                            <div
+                                class="defaultbox"
+                                id="17box"
+                            >
+                                <input type="text" maxlength="1" id="box17">
+                                <div
+                                    class="defaultbox"
+                                    id="18box"
+                                >
+                                    <input type="text" maxlength="1" id="box18">
+                                    <div
+                                        class="defaultbox"
+                                        id="19box"
+                                    >
+                                        <input type="text" maxlength="1" id="box19">
+                                        <div
+                                            class="defaultbox"
+                                            id="20box"
+                                        >
+                                            <input type="text" maxlength="1" id="box20">
+                                            
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div
+                        class="gamerow"
+                        >
+                            <div
+                                class="defaultbox"
+                                id="21box"
+                            >
+                                <input type="text" maxlength="1" id="box21">
+                                <div
+                                    class="defaultbox"
+                                    id="22box"
+                                >
+                                    <input type="text" maxlength="1" id="box22">
+                                    <div
+                                        class="defaultbox"
+                                        id="23box"
+                                    >
+                                        <input type="text" maxlength="1" id="box23">
+                                        <div
+                                            class="defaultbox"
+                                            id="24box"
+                                        >
+                                            <input type="text" maxlength="1" id="box24">
+                                            <div
+                                                class="defaultbox"
+                                                id="25box"
+                                            >
+                                                <input type="text" maxlength="1" id="box25">
+                                                
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div
+                            class="gamerow"
+                            >
+                                <div
+                                    class="defaultbox"
+                                    id="26box"
+                                >
+                                    <input type="text" maxlength="1" id="box26">
+                                    <div
+                                        class="defaultbox"
+                                        id="27box"
+                                    >
+                                        <input type="text" maxlength="1" id="box27">
+                                        <div
+                                            class="defaultbox"
+                                            id="28box"
+                                        >
+                                        <input type="text" maxlength="1" id="box28">
+                                            <div
+                                                class="defaultbox"
+                                                id="29box"
+                                            >
+                                                <input type="text" maxlength="1" id="box29">
+                                                <div
+                                                    class="defaultbox"
+                                                    id="30box"
+                                                >
+                                                    <input type="text" maxlength="1" id="box30">                                                        
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+  </body>
+</html>

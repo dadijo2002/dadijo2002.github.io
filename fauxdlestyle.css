@@ -1,0 +1,84 @@
+.background {
+    color: rgb(46, 44, 44);
+    display: flex;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: bold;
+    text-align: center;
+    margin-left: 185px;
+    margin-right: auto;
+    padding: 10px;
+}
+
+.wrongspot {
+    background-color: rgb(173, 162, 0);
+    color: white;
+    width: 75px;
+    height: 76px;
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    margin: 10px;
+    text-align: center;
+    align-items: center;
+    font-size: 70px;
+}
+
+.correct {
+    background-color: rgb(2, 175, 39);
+    color: white;
+    width: 75px;
+    height: 76px;
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    margin: 10px;
+    text-align: center;
+    align-items: center;
+    font-size: 70px;
+}
+
+.defaultbox {
+    background-color: rgb(56, 55, 56);
+    color: white;
+    width: 75px;
+    height: 76px;
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    margin: 10px;
+    text-align: center;
+    align-items: center;
+    font-size: 70px;
+    position: relative;
+}
+
+.game {
+    background-color: rgb(180, 180, 180);
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    width: 444px;
+    height: 525px;
+    text-align: center;
+    padding: 50px;
+}
+
+input {
+    /* transparent text box modified from CodePen https://codepen.io/davidung/pen/mdVpor */
+    background: rgba(255,255,255,0.4);
+    border: none;
+    display: block;
+    outline: none;
+    width: 71px;
+    height: 74px;
+    color: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    text-align: center;
+    font-size: 70px;
+}
+
+.gamerow {
+    width: 500px;
+    height: 100px;
+}
