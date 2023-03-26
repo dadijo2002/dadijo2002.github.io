@@ -9,7 +9,17 @@
     padding: 10px;
 }
 
+body {
+    font-family: 'DDWeb';
+    font-weight: 700;
+    font-style: normal;
+    line-height: 1;
+    font-size: 20px;
+}
+
 @font-face {
     font-family: 'DDWeb';
-    src: url('ddweb.ttf') format('truetype');
+    src: url('/ddweb.ttf') format('truetype');
+    font-weight: 700;
+    font-style: normal;
 }
