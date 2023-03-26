@@ -11,5 +11,5 @@
 
 @font-face {
     font-family: 'DDWeb';
-    src: url('ddweb.ttf');
+    src: url('ddweb.ttf') format('truetype');
 }
