@@ -1,0 +1,15 @@
+.background {
+    color: rgb(211, 211, 211);
+    display: flex;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: bold;
+    text-align: center;
+    margin-left: 185px;
+    margin-right: auto;
+    padding: 10px;
+}
+
+@font-face {
+    font-family: 'DDWeb';
+    src: url(ddweb.ttf);
+}
