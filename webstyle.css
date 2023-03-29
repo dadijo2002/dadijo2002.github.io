@@ -1,12 +1,5 @@
 .background {
-    color: rgb(211, 211, 211);
-    display: flex;
-    font-family: 'DDWeb';
-    font-weight: 700;
-    text-align: center;
-    margin-left: 185px;
-    margin-right: auto;
-    padding: 10px;
+    background-color: rgb(15, 8, 44);
 }
 
 .title {
@@ -14,7 +7,9 @@
     font-weight: 700;
     font-style: normal;
     line-height: 1;
-    position: relative
+    position: relative;
+    display: flex;
+    justify-content: center;
 }
 
 .headertitle {
@@ -34,6 +29,18 @@
     -ms-transform: translateY(-50%);
     transform: translateY(-50%);
     padding-left: 200px;
+    padding-bottom: 10px;
+    line-height: 1;
+}
+
+.custom-font {
+    font-family: 'DDWeb';
+    line-height: 1;
+}
+
+.body-font {
+    font-family: 'Arial';
+    line-height: 1;
 }
 
 @font-face {
