@@ -9,12 +9,31 @@
     padding: 10px;
 }
 
-body {
+.title {
     font-family: 'DDWeb';
     font-weight: 700;
     font-style: normal;
     line-height: 1;
-    font-size: 20px;
+    position: relative
+}
+
+.headertitle {
+    position: relative
+    left: 68px;
+    top: 200px;
+    display: flex;
+    height: 350px;
+    background:rgb(24, 61, 17);
+    vertical-align: baseline;
+}
+
+.vertical-center {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    padding-left: 200px;
 }
 
 @font-face {
