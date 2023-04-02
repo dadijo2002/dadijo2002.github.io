@@ -20,6 +20,8 @@
     height: 350px;
     background:rgb(24, 61, 17);
     vertical-align: baseline;
+    animation-name: 'headerbox';
+    animation-duration: 3s;
 }
 
 .vertical-center {
@@ -48,4 +50,27 @@
     src: url('/ddweb.ttf') format('truetype');
     font-weight: 700;
     font-style: normal;
+}
+
+@keyframes headerbox {
+    0% {
+        background: rgb(5, 27, 9);
+    }
+    60% {
+        background: rgb(156, 246, 138);
+    }
+    100% {
+        background: rgb(46, 94, 63);
+    }
+}
+
+@keyframes image {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+        transform: translateX(0%)
+        -webkit-transform: translateX(100%);
+    }
 }
