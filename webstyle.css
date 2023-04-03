@@ -10,6 +10,8 @@
     position: relative;
     display: flex;
     justify-content: center;
+    animation-name: image;
+    animation-duration: 5s;
 }
 
 .headertitle {
@@ -22,6 +24,22 @@
     vertical-align: baseline;
     animation-name: 'headerbox';
     animation-duration: 3s;
+    animation-name: image;
+    animation-duration: 5s;
+}
+
+.headanimate {
+    animation-name: headerbox;
+    animation-duration: 3s;
+}
+
+.meimg {
+    animation-name: image;
+    animation-duration: 5s;
+}
+
+.meimg:hover {
+    animation: fadeimg 3s linear infinite;
 }
 
 .vertical-center {
@@ -45,6 +63,33 @@
     line-height: 1;
 }
 
+.linkbutton {
+    font-family: 'DDWeb';
+    line-height: 1;
+}
+
+.linkbutton:hover {
+    background-image: linear-gradient(90deg, #046332 0%, #58d62a 20%, #046332 40%);
+   animation:laser 5s linear infinite;
+}
+
+input[type="checkbox"] {
+    content: url('me.png');
+    appearance: none;
+    display: block;
+    width: 200px;
+    animation-name: image;
+    animation-duration: 5s;
+}
+
+input[type="checkbox"]:checked {
+    animation-name: image;
+    animation-duration: 5s;
+    content: url('me2.png');
+    height: 350px;
+    width: 200px;
+}
+
 @font-face {
     font-family: 'DDWeb';
     src: url('/ddweb.ttf') format('truetype');
@@ -64,6 +109,33 @@
     }
 }
 
+@keyframes cool {
+    0% {
+        background: rgb(46, 94, 63);
+    }
+    10% {
+        background: rgb(0, 255, 38);
+    }
+    25% {
+        background: rgb(0, 255, 255);
+    }
+    40% {
+        background: rgb(0, 0, 255);
+    }
+    55% {
+        background: rgb(255, 0, 255);
+    }
+    70% {
+        background: rgb(255, 0, 0);
+    }
+    85% {
+        background: rgb(255, 251, 0);
+    }
+    100% {
+        background: rgb(46, 94, 63);
+    }
+}
+
 @keyframes image {
     0% {
         opacity: 0;
@@ -74,3 +146,9 @@
         -webkit-transform: translateX(100%);
     }
 }
+
+@keyframes laser {
+    to {
+      background-position:10vw;
+    }
+  }
